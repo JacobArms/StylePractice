@@ -7,9 +7,11 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="320dp"
         android:layout_height="@dimen/textViewHeight"
         android:text="Enter Your Name!"
+        android:textColor="@color/design_default_color_primary"
         android:textSize="@dimen/fontSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,6 +22,7 @@
 
     <EditText
         android:id="@+id/editTextTextPersonName"
+        android:textColor="@color/design_default_color_primary"
         android:layout_width="@dimen/editTextWidth"
         android:layout_height="@dimen/editTextHeight"
         android:ems="10"
@@ -35,11 +38,26 @@
     <TextView
         android:layout_width="@dimen/textViewWidth"
         android:layout_height="@dimen/textViewHeight"
+        android:textColor="@color/design_default_color_primary"
         android:text="Hello World!"
         android:textSize="@dimen/fontSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/design_default_color_on_primary"
+        android:shadowColor="@color/design_default_color_primary_variant"
+        android:text="Button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
