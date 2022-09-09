@@ -4,5 +4,5 @@
     <dimen name="textViewHeight">60dp</dimen>
     <dimen name="editTextWidth">250dp</dimen>
     <dimen name="editTextHeight">60dp</dimen>
-    <dimen name="fontSize">40sp</dimen>
+    <dimen name="fontSize">35sp</dimen>
 </resources>

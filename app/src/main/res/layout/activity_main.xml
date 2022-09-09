@@ -4,60 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/secondaryDarkColor"
+    android:backgroundTint="@color/secondaryLightColor"
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="320dp"
-        android:layout_height="@dimen/textViewHeight"
-        android:text="Enter Your Name!"
-        android:textColor="@color/design_default_color_primary"
+        android:layout_width="394dp"
+        android:layout_height="44dp"
+        android:text="When Will You Graduate?"
+        android:textColor="@color/design_default_color_primary_dark"
         android:textSize="@dimen/fontSize"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.066" />
+        app:layout_constraintVertical_bias="0.67" />
+
+    <TextView
+        android:layout_width="306dp"
+        android:layout_height="109dp"
+        android:text="What Year Are You In High School?"
+        android:textColor="@color/design_default_color_primary_dark"
+        android:textSize="@dimen/fontSize"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.339" />
 
     <EditText
         android:id="@+id/editTextTextPersonName"
-        android:textColor="@color/design_default_color_primary"
-        android:layout_width="@dimen/editTextWidth"
-        android:layout_height="@dimen/editTextHeight"
+        android:layout_width="342dp"
+        android:layout_height="84dp"
+        android:background="@color/secondaryColor"
         android:ems="10"
-        android:hint="Name"
+        android:hint="Enter Year, ex: 11"
         android:inputType="textPersonName"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.527"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.213" />
-
-    <TextView
-        android:layout_width="@dimen/textViewWidth"
-        android:layout_height="@dimen/textViewHeight"
         android:textColor="@color/design_default_color_primary"
-        android:text="Hello World!"
-        android:textSize="@dimen/fontSize"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@color/design_default_color_on_primary"
-        android:shadowColor="@color/design_default_color_primary_variant"
-        android:text="Button"
+    <TextView
+        android:layout_width="368dp"
+        android:layout_height="120dp"
+        android:text="Welcome!"
+        android:textColor="@color/design_default_color_primary_variant"
+        android:textSize="80sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.79"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
+        app:layout_constraintVertical_bias="0.125" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="360dp"
+        android:layout_height="76dp"
+        android:shadowColor="@color/design_default_color_primary_variant"
+        android:text="Calculate"
+        android:textColor="@color/design_default_color_on_primary"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.816" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
