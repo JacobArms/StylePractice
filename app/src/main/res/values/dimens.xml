@@ -5,4 +5,6 @@
     <dimen name="editTextWidth">250dp</dimen>
     <dimen name="editTextHeight">60dp</dimen>
     <dimen name="fontSize">35sp</dimen>
+    <dimen name="padding">50dp</dimen>
+    <dimen name="margin">100dp</dimen>
 </resources>
